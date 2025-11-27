@@ -4,5 +4,29 @@ A structured database system designed to efficiently manage hospital operations,
 Overview
 
 The Hospital Management System (HMS) database aims to streamline and digitize core operations of a hospital.
-It follows standard DBMS principles, includes normalized tables, and is built using SQL (MySQL/PostgreSQL/Oracle — can adapt as needed).
+It follows standard DBMS principles, includes normalized tables, and is built using SQL.
 The project demonstrates complete database lifecycle design: requirement analysis → ER diagram → schema creation → data population → query execution.
+
+Project Objectives
+
+To model a real-world hospital system using entity–relationship principles.
+
+To maintain accurate, reliable, and normalized medical records.
+
+To enable efficient retrieval of information through SQL queries.
+
+To ensure data integrity through primary/foreign key constraints.
+
+To support hospital functions like:
+
+Patient registration
+
+Scheduling appointments
+
+Assigning doctors
+
+Managing wards & rooms
+
+Handling medical records
+
+Billing and payments
