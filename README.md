@@ -17,16 +17,14 @@ To enable efficient retrieval of information through SQL queries.
 
 To ensure data integrity through primary/foreign key constraints.
 
-To support hospital functions like:
+Relationships
 
-Patient registration
+One doctor → many appointments
 
-Scheduling appointments
+One patient → many reports
 
-Assigning doctors
+One patient → many treatments
 
-Managing wards & rooms
+One department → many doctors
 
-Handling medical records
-
-Billing and payments
+One room → allocated to one patient at a time
