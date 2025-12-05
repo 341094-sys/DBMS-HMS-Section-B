@@ -2,7 +2,7 @@
 
 This project represents a structured database model designed to manage and streamline key hospital operations. It demonstrates core DBMS concepts such as entity–relationship modeling, normalization, and relational integrity.
 
-📌Project Overview
+Project Overview
 
 The Hospital Management System (HMS) aims to organize hospital data efficiently, reduce redundancy, and provide a centralized system for managing patients, doctors, appointments, treatments, rooms, and billing.
 The design supports easy retrieval, updates, and analysis of hospital information.
