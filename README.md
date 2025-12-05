@@ -1,49 +1,55 @@
-DBMS Term Project
+ Hospital Management System – DBMS Project
 
-(Apollo Hospital)
+This project represents a structured database model designed to manage and streamline key hospital operations. It demonstrates core DBMS concepts such as entity–relationship modeling, normalization, and relational integrity.
 
-Submitted to: Prof. Ashok Harnal
+📌Project Overview
 
-Submitted by:
+The Hospital Management System (HMS) aims to organize hospital data efficiently, reduce redundancy, and provide a centralized system for managing patients, doctors, appointments, treatments, rooms, and billing.
+The design supports easy retrieval, updates, and analysis of hospital information.
 
-Section B
+Key Features
 
-Palakolanu Sai Moneesh-341092
+Comprehensive patient and doctor records
 
-Ananya Deepankar-341112
+Appointment scheduling between patients and doctors
 
-Prachi Agarwal-341094
+Complete treatment history and diagnosis tracking
 
+Room/ward management with availability status
 
+Billing structure covering treatment, medicine, and room charges
 
-Hospital Management System
+Clear primary–foreign key relationships ensuring data integrity
 
-A structured database system designed to efficiently manage hospital operations, including patient records, doctor details, appointments, treatments, billing, and administrative workflows.  
+Well-normalized tables for performance and consistency
 
-Overview
+ER Diagram – Explained
 
-The Hospital Management System (HMS) database aims to streamline and digitize core operations of a hospital.
-It follows standard DBMS principles, includes normalized tables, and is built using SQL.
-The project demonstrates complete database lifecycle design: requirement analysis → ER diagram → schema creation → data population → query execution.
+The ER diagram consists of major entities and their interactions:
 
-Project Objectives
+Entities
 
-To model a real-world hospital system using entity–relationship principles.
+Patient: Stores personal and medical information
 
-To maintain accurate, reliable, and normalized medical records.
+Doctor: Contains doctor profiles and specialization
 
-To enable efficient retrieval of information through SQL queries.
+Appointment: Represents scheduled visits between patients and doctors
 
-To ensure data integrity through primary/foreign key constraints.
+Treatment: Stores diagnosis details, medications, and treatment dates
+
+Room: Manages room type, status, and patient assignment
+
+Billing: Records service costs and payment details
 
 Relationships
 
-One doctor → many appointments
+A patient can have multiple appointments and treatments.
 
-One patient → many reports
+A doctor can attend many appointments and provide multiple treatments.
 
-One patient → many treatments
+Billing is associated with each patient, with the possibility of multiple bills.
 
-One department → many doctors
+Rooms may be assigned to patients when occupied (optional 1:1 relationship).
 
-One room → allocated to one patient at a time
+The design ensures smooth data flow and clear linkages across hospital activities.
+
